@@ -1,0 +1,1 @@
+exports.scan = async (url) => ({ found: url.includes('..'), dump: '/etc/passwd accessed' });

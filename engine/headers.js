@@ -1,0 +1,1 @@
+exports.scan = async (url) => ({ found: false });

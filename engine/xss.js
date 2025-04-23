@@ -1,0 +1,1 @@
+exports.scan = async (url) => ({ found: url.includes('script'), dump: '<script>alert(1)</script>' });

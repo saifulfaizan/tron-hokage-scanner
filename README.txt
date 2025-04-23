@@ -12,7 +12,7 @@ To auto inject all active links:
 node autoInjectorFromActive.js
 
 To run auto exploit based on detected vuln:
-node autoExploitFromVuln.js
+node analyzer.js
 
 To run TRON shell uploader:
 node tronUploader.js https://target.com
